@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TopArticlesTableViewController.h
 //  GameOfThronesWiki
 //
 //  Created by Mateusz Tylman on 25/10/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TopArticlesTableViewController : UITableViewController
 
 @end
-

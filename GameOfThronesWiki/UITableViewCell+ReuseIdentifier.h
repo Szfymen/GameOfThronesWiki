@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UITableViewCell+ReuseIdentifier.h
 //  GameOfThronesWiki
 //
 //  Created by Mateusz Tylman on 25/10/15.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface UITableViewCell (ReuseIdentifier)
 
-@property (strong, nonatomic) UIWindow *window;
++ (NSString *)reuseIdentifier;
 
 @end
-
