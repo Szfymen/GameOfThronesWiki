@@ -11,13 +11,13 @@
 		E28E4CDA1BDD2B6E0090D6D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4CD91BDD2B6E0090D6D1 /* AppDelegate.m */; };
 		E28E4CE21BDD2B6E0090D6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28E4CE11BDD2B6E0090D6D1 /* Assets.xcassets */; };
 		E28E4CE51BDD2B6E0090D6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28E4CE31BDD2B6E0090D6D1 /* LaunchScreen.storyboard */; };
-		E28E4CEF1BDD2BF80090D6D1 /* TopArticlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4CED1BDD2BF80090D6D1 /* TopArticlesTableViewController.m */; };
-		E28E4CF01BDD2BF80090D6D1 /* TopArticlesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E4CEE1BDD2BF80090D6D1 /* TopArticlesTableViewController.xib */; };
 		E28E4CF71BDD2CA80090D6D1 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4CF61BDD2CA80090D6D1 /* NetworkManager.m */; };
-		E28E4CFE1BDD3B820090D6D1 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4CFD1BDD3B820090D6D1 /* ArticleModel.m */; };
 		E28E4D031BDD45930090D6D1 /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4D011BDD45930090D6D1 /* ArticleTableViewCell.m */; };
 		E28E4D041BDD45930090D6D1 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E4D021BDD45930090D6D1 /* ArticleTableViewCell.xib */; };
 		E28E4D081BDD45EA0090D6D1 /* UITableViewCell+ReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4D071BDD45EA0090D6D1 /* UITableViewCell+ReuseIdentifier.m */; };
+		E28E4D0D1BDD72EE0090D6D1 /* TopArticlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4D0B1BDD72EE0090D6D1 /* TopArticlesTableViewController.m */; };
+		E28E4D0E1BDD72EE0090D6D1 /* TopArticlesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E4D0C1BDD72EE0090D6D1 /* TopArticlesTableViewController.xib */; };
+		E28E4D111BDD72FF0090D6D1 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E4D101BDD72FF0090D6D1 /* ArticleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,19 +28,19 @@
 		E28E4CE11BDD2B6E0090D6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28E4CE41BDD2B6E0090D6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E28E4CE61BDD2B6E0090D6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E28E4CEC1BDD2BF80090D6D1 /* TopArticlesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopArticlesTableViewController.h; path = ../TopArticlesTableViewController.h; sourceTree = "<group>"; };
-		E28E4CED1BDD2BF80090D6D1 /* TopArticlesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopArticlesTableViewController.m; path = ../TopArticlesTableViewController.m; sourceTree = "<group>"; };
-		E28E4CEE1BDD2BF80090D6D1 /* TopArticlesTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopArticlesTableViewController.xib; path = ../TopArticlesTableViewController.xib; sourceTree = "<group>"; };
 		E28E4CF51BDD2CA80090D6D1 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		E28E4CF61BDD2CA80090D6D1 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		E28E4CF81BDD30850090D6D1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		E28E4CFC1BDD3B820090D6D1 /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleModel.h; path = ../ArticleModel.h; sourceTree = "<group>"; };
-		E28E4CFD1BDD3B820090D6D1 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleModel.m; path = ../ArticleModel.m; sourceTree = "<group>"; };
 		E28E4D001BDD45930090D6D1 /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewCell.h; sourceTree = "<group>"; };
 		E28E4D011BDD45930090D6D1 /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewCell.m; sourceTree = "<group>"; };
 		E28E4D021BDD45930090D6D1 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
 		E28E4D061BDD45EA0090D6D1 /* UITableViewCell+ReuseIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ReuseIdentifier.h"; sourceTree = "<group>"; };
 		E28E4D071BDD45EA0090D6D1 /* UITableViewCell+ReuseIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ReuseIdentifier.m"; sourceTree = "<group>"; };
+		E28E4D0A1BDD72EE0090D6D1 /* TopArticlesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopArticlesTableViewController.h; sourceTree = "<group>"; };
+		E28E4D0B1BDD72EE0090D6D1 /* TopArticlesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopArticlesTableViewController.m; sourceTree = "<group>"; };
+		E28E4D0C1BDD72EE0090D6D1 /* TopArticlesTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopArticlesTableViewController.xib; sourceTree = "<group>"; };
+		E28E4D0F1BDD72FF0090D6D1 /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
+		E28E4D101BDD72FF0090D6D1 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				E28E4CF31BDD2C1C0090D6D1 /* Cell */,
-				E28E4CEC1BDD2BF80090D6D1 /* TopArticlesTableViewController.h */,
-				E28E4CED1BDD2BF80090D6D1 /* TopArticlesTableViewController.m */,
-				E28E4CEE1BDD2BF80090D6D1 /* TopArticlesTableViewController.xib */,
+				E28E4D0A1BDD72EE0090D6D1 /* TopArticlesTableViewController.h */,
+				E28E4D0B1BDD72EE0090D6D1 /* TopArticlesTableViewController.m */,
+				E28E4D0C1BDD72EE0090D6D1 /* TopArticlesTableViewController.xib */,
 			);
 			name = "Top Articles";
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 		E28E4CFF1BDD42380090D6D1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E28E4CFC1BDD3B820090D6D1 /* ArticleModel.h */,
-				E28E4CFD1BDD3B820090D6D1 /* ArticleModel.m */,
+				E28E4D0F1BDD72FF0090D6D1 /* ArticleModel.h */,
+				E28E4D101BDD72FF0090D6D1 /* ArticleModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -218,10 +218,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28E4D0E1BDD72EE0090D6D1 /* TopArticlesTableViewController.xib in Resources */,
 				E28E4D041BDD45930090D6D1 /* ArticleTableViewCell.xib in Resources */,
 				E28E4CE51BDD2B6E0090D6D1 /* LaunchScreen.storyboard in Resources */,
 				E28E4CE21BDD2B6E0090D6D1 /* Assets.xcassets in Resources */,
-				E28E4CF01BDD2BF80090D6D1 /* TopArticlesTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,9 +234,9 @@
 			files = (
 				E28E4D081BDD45EA0090D6D1 /* UITableViewCell+ReuseIdentifier.m in Sources */,
 				E28E4CF71BDD2CA80090D6D1 /* NetworkManager.m in Sources */,
-				E28E4CFE1BDD3B820090D6D1 /* ArticleModel.m in Sources */,
-				E28E4CEF1BDD2BF80090D6D1 /* TopArticlesTableViewController.m in Sources */,
 				E28E4CDA1BDD2B6E0090D6D1 /* AppDelegate.m in Sources */,
+				E28E4D111BDD72FF0090D6D1 /* ArticleModel.m in Sources */,
+				E28E4D0D1BDD72EE0090D6D1 /* TopArticlesTableViewController.m in Sources */,
 				E28E4D031BDD45930090D6D1 /* ArticleTableViewCell.m in Sources */,
 				E28E4CD71BDD2B6E0090D6D1 /* main.m in Sources */,
 			);
